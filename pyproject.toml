@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mat"
+authors = [{name = "Mohamad Ali", email = "mohamadalitellawi@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+version = "0.0.1"
+dependencies = [
+    "pandas"
+]
